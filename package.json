@@ -4,9 +4,9 @@
   "description": "A RAGE:MP boilerplate.",
   "author": "rchl2 <freshieboyz+git@gmail.com>",
   "scripts": {
-    "watch": "nodemon --watch packages --watch client_packages --exec \"./server.exe\"",
-    "watch-server": "nodemon --watch packages --exec \"./server.exe\"",
-    "watch-client": "nodemon --watch client_packages --exec \"./server.exe\""
+    "watch": "nodemon --watch \"./src/server\" --watch \"./src/client\" --exec \"./server.exe\"",
+    "watch-server": "nodemon --watch \"./src/server\" --exec \"./server.exe\"",
+    "watch-client": "nodemon --watch \"./src/client\" --exec \"./server.exe\""
   },
   "devDependencies": {
     "@types/ragemp-c": "github:CocaColaBear/types-ragemp-c#master",
